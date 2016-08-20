@@ -9,9 +9,9 @@ module AssetMetadata
 
     property :digitization_source, predicate: AIC.digitizationSource, multiple: false, class_name: "ListItem"
 
-    property :document_type, predicate: AIC.documentType, multiple: false, class_name: "Definition"
-    property :first_document_sub_type, predicate: AIC.documentSubType1, multiple: false, class_name: "Definition"
-    property :second_document_sub_type, predicate: AIC.documentSubType2, multiple: false, class_name: "Definition"
+    property :document_type, predicate: AIC.documentType, multiple: false, class_name: "ListItem"
+    property :first_document_sub_type, predicate: AIC.documentSubType1, multiple: false, class_name: "ListItem"
+    property :second_document_sub_type, predicate: AIC.documentSubType2, multiple: false, class_name: "ListItem"
 
     # Force these to singular terms
     def document_type=(value)

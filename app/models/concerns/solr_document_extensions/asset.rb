@@ -11,15 +11,15 @@ module SolrDocumentExtensions::Asset
   end
 
   def document_type
-    Array(self[Solrizer.solr_name('document_type', :symbol)]).first
+    Array(self[Solrizer.solr_name('document_type', :stored_searchable)]).first
   end
 
   def first_document_sub_type
-    Array(self[Solrizer.solr_name('first_document_sub_type', :symbol)]).first
+    Array(self[Solrizer.solr_name('first_document_sub_type', :stored_searchable)]).first
   end
 
   def second_document_sub_type
-    Array(self[Solrizer.solr_name('second_document_sub_type', :symbol)]).first
+    Array(self[Solrizer.solr_name('second_document_sub_type', :stored_searchable)]).first
   end
 
   def legacy_uid
