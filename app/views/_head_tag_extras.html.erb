@@ -1,1 +1,4 @@
 <%= favicon_link_tag 'favicon.ico' %>
+<script type="text/javascript">
+window.fcrepo_root = "<%= ActiveFedora.config.credentials[:url] + ActiveFedora.config.credentials[:base_path] %>";
+</script>

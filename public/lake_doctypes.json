@@ -1,652 +1,648 @@
 {
-    "asset_types" : {
-        "StillImage" : {
-            "doctypes" : [
+    "asset_types": {
+        "StillImage": {
+            "doctypes": [
                 {
-                    "label" : "Marketing",
-                    "value" : "http://definitions.artic.edu/doctypes/MarketingStillImage",
-                    "subtypes" : [
-                        {
-                            "label" : "Design File",
-                            "value" : "http://definitions.artic.edu/doctypes/DesignFile"
-                        },
-                        {
-                            "label" : "Ad Material",
-                            "value" : "http://definitions.artic.edu/doctypes/AdMaterial"
-                        }
-                    ]
+                    "value": "%%FCREPO_ROOT%%/b2/53/44/8d/b253448d-2489-6db9-cca4-887f5dd6b658",
+                    "label": "Design and Construction"
                 },
                 {
-                    "label" : "Imaging",
-                    "value" : "http://definitions.artic.edu/doctypes/Imaging",
-                    "subtypes" : [
+                    "value": "%%FCREPO_ROOT%%/17/95/cf/cf/1795cfcf-b28f-b87c-1500-48427c8e108f",
+                    "label": "Development"
+                },
+                {
+                    "value": "%%FCREPO_ROOT%%/96/e6/64/f7/96e664f7-7f23-a03f-a899-237ddf9f1536",
+                    "label": "Imaging",
+                    "subtypes": [
                         {
-                            "label" : "Archive Document",
-                            "value" : "http://definitions.artic.edu/doctypes/ArchiveDocument"
+                            "value": "%%FCREPO_ROOT%%/7f/ae/5f/1a/7fae5f1a-3064-5b95-46d4-5a787a13ce7d",
+                            "label": "Archive Document"
                         },
                         {
-                            "label" : "Object Photography",
-                            "value" : "http://definitions.artic.edu/doctypes/ObjectPhotography"
-                        },
-                        {
-                            "label" : "Event Photography",
-                            "value" : "http://definitions.artic.edu/doctypes/EventPhotography",
-                            "subtypes" : [
+                            "value": "%%FCREPO_ROOT%%/60/3f/e4/ac/603fe4ac-42a0-2882-6901-7dc6052dcb4b",
+                            "label": "Event Photography",
+                            "subtypes": [
                                 {
-                                    "label" : "Lecture",
-                                    "value" : "http://definitions.artic.edu/doctypes/Lecture"
+                                    "value": "%%FCREPO_ROOT%%/b5/ae/a7/42/b5aea742-16b4-2567-ec1c-259a7477beaf",
+                                    "label": "Behind-the-scenes"
                                 },
                                 {
-                                    "label" : "Committee Meeting",
-                                    "value" : "http://definitions.artic.edu/doctypes/CommitteeMeeting"
+                                    "value": "%%FCREPO_ROOT%%/5b/78/2f/a0/5b782fa0-fa8e-15f9-7073-d0d9a457653d",
+                                    "label": "Committee Meeting"
                                 },
                                 {
-                                    "label" : "Membership event",
-                                    "value" : "http://definitions.artic.edu/doctypes/MembershipEvent"
+                                    "value": "%%FCREPO_ROOT%%/0e/45/a1/89/0e45a189-9497-ac93-7473-c7b18361213e",
+                                    "label": "Donor event"
                                 },
                                 {
-                                    "label" : "Gallery Tour",
-                                    "value" : "http://definitions.artic.edu/doctypes/GalleryTour"
+                                    "value": "%%FCREPO_ROOT%%/74/c8/82/6b/74c8826b-14aa-510b-9dcb-0bd5c755530f",
+                                    "label": "Education Program"
                                 },
                                 {
-                                    "label" : "Education Program",
-                                    "value" : "http://definitions.artic.edu/doctypes/EducationProgram"
+                                    "value": "%%FCREPO_ROOT%%/c2/9a/5b/4f/c29a5b4f-162d-81e6-e49a-e63e67c388ae",
+                                    "label": "Gallery Tour"
                                 },
                                 {
-                                    "label" : "Behind-the-scenes",
-                                    "value" : "http://definitions.artic.edu/doctypes/BehindTheScenes"
+                                    "value": "%%FCREPO_ROOT%%/8d/1f/93/f4/8d1f93f4-000b-33bc-3fbb-48d2bb1d8d20",
+                                    "label": "Lecture"
                                 },
                                 {
-                                    "label" : "Seminar",
-                                    "value" : "http://definitions.artic.edu/doctypes/Seminar"
+                                    "value": "%%FCREPO_ROOT%%/cd/85/86/8f/cd85868f-03d4-d49d-0da5-9a8fd73d647f",
+                                    "label": "Marketing"
                                 },
                                 {
-                                    "label" : "Donor event",
-                                    "value" : "http://definitions.artic.edu/doctypes/DonorEvent"
+                                    "value": "%%FCREPO_ROOT%%/3f/ab/f6/69/3fabf669-7389-f3ec-c7b5-7c0055e2db88",
+                                    "label": "Mellon Program"
                                 },
                                 {
-                                    "label" : "Mellon Program",
-                                    "value" : "http://definitions.artic.edu/doctypes/MellonProgram"
+                                    "value": "%%FCREPO_ROOT%%/8f/47/82/c6/8f4782c6-c151-7e2a-46af-221719ea34a1",
+                                    "label": "Membership event"
                                 },
                                 {
-                                    "label" : "SupportGroup",
-                                    "value" : "http://definitions.artic.edu/doctypes/SupportGroup"
+                                    "value": "%%FCREPO_ROOT%%/c8/b8/5a/70/c8b85a70-45b5-623f-cd64-e535cae07710",
+                                    "label": "Seminar"
                                 },
                                 {
-                                    "label" : "Marketing",
-                                    "value" : "http://definitions.artic.edu/doctypes/Marketing"
+                                    "value": "%%FCREPO_ROOT%%/1f/99/09/b7/1f9909b7-ca7d-6e6e-0e3d-fa58caabc59d",
+                                    "label": "SupportGroup"
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "label" : "Ryerson Library",
-                    "value" : "http://definitions.artic.edu/doctypes/RyersonLibraryStillImage",
-                    "subtypes" : [
+                        },
                         {
-                            "label" : "Ryerson Special Collections",
-                            "value" : "http://definitions.artic.edu/doctypes/RyersonSpecialCollectionsStillImage"
+                            "value": "%%FCREPO_ROOT%%/71/51/81/00/71518100-6d5d-1f32-b873-41c760442039",
+                            "label": "Object Photography"
                         }
                     ]
                 },
                 {
-                    "label" : "Design and Construction",
-                    "value" : "http://definitions.artic.edu/doctypes/DesignConstructionStillImage"
+                    "value": "%%FCREPO_ROOT%%/b5/51/3c/4e/b5513c4e-8a72-382e-25cc-370c4bdbd934",
+                    "label": "Marketing",
+                    "subtypes": [
+                        {
+                            "value": "%%FCREPO_ROOT%%/02/10/e9/90/0210e990-99a8-ec3a-0c3e-d0990f0a4c70",
+                            "label": "Ad Material"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/69/a9/95/e7/69a995e7-8d7a-8c3c-7b62-7da8fc609350",
+                            "label": "Design File"
+                        }
+                    ]
                 },
                 {
-                    "label" : "Museum Education",
-                    "value" : "http://definitions.artic.edu/doctypes/MuseumEducationStillImage"
+                    "value": "%%FCREPO_ROOT%%/2f/06/cd/e8/2f06cde8-e80c-406b-07ce-8e77d2bae1ec",
+                    "label": "Museum Education"
                 },
                 {
-                    "label" : "Development",
-                    "value" : "http://definitions.artic.edu/doctypes/DevelopmentStillImage"
+                    "value": "%%FCREPO_ROOT%%/18/a8/3a/f7/18a83af7-7a70-f903-469b-528a58d5c61f",
+                    "label": "Ryerson Library",
+                    "subtypes": [
+                        {
+                            "value": "%%FCREPO_ROOT%%/a8/3e/4e/c4/a83e4ec4-80fd-3765-fb4e-ecf556333744",
+                            "label": "Ryerson Special Collections"
+                        }
+                    ]
                 }
             ]
         },
-        "Text" : {
-            "doctypes" : [
+        "Text": {
+            "doctypes": [
                 {
-                    "label" : "General",
-                    "value" : "http://definitions.artic.edu/doctypes/General",
-                    "subtypes" : [
+                    "value": "%%FCREPO_ROOT%%/0f/6e/fb/be/0f6efbbe-4a08-1c34-0814-4fe3a018d5de",
+                    "label": "Acquisition Paperwork",
+                    "subtypes": [
                         {
-                            "label" : "Correspondence",
-                            "value" : "http://definitions.artic.edu/doctypes/Correspondence"
+                            "value": "%%FCREPO_ROOT%%/f0/e7/df/f3/f0e7dff3-f7b8-b3dd-446f-61bf4a4f86bb",
+                            "label": "Appraisal"
                         },
                         {
-                            "label" : "Acquisition Document",
-                            "value" : "http://definitions.artic.edu/doctypes/AcquisitionDocument"
+                            "value": "%%FCREPO_ROOT%%/ce/51/be/fd/ce51befd-0022-3b51-e320-7cc50c862bdf",
+                            "label": "Art Loss Certificate"
                         },
                         {
-                            "label" : "Contract",
-                            "value" : "http://definitions.artic.edu/doctypes/Contract",
-                            "subtypes" : [
+                            "value": "%%FCREPO_ROOT%%/ef/6a/92/2c/ef6a922c-8c03-3939-90ea-184e6300e786",
+                            "label": "Bargain Sale Agreement"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/b7/11/9c/82/b7119c82-6b3e-3508-db24-dd11577ab8a7",
+                            "label": "Bequest",
+                            "subtypes": [
                                 {
-                                    "label" : "Master Vendor Contract",
-                                    "value" : "http://definitions.artic.edu/doctypes/MasterVendorContract"
-                                },
-                                {
-                                    "label" : "Exhibition Contract",
-                                    "value" : "http://definitions.artic.edu/doctypes/ExhibitionContract"
-                                },
-                                {
-                                    "label" : "Art Commission Contract",
-                                    "value" : "http://definitions.artic.edu/doctypes/ArtCommissionContract"
-                                },
-                                {
-                                    "label" : "Auction Sales Contract",
-                                    "value" : "http://definitions.artic.edu/doctypes/AuctionSalesContract"
+                                    "value": "%%FCREPO_ROOT%%/a3/a5/3e/5c/a3a53e5c-1df8-1e58-4939-b6fec9b26184",
+                                    "label": "Will"
                                 }
                             ]
                         },
                         {
-                            "label" : "Fundraising",
-                            "value" : "http://definitions.artic.edu/doctypes/Fundraising"
-                        }
-                        ,
+                            "value": "%%FCREPO_ROOT%%/d2/0c/c2/4e/d20cc24e-0c15-0a13-b62f-b6cfa1309bdd",
+                            "label": "Certificate of Authenticity",
+                            "subtypes": [
+                                {
+                                    "value": "%%FCREPO_ROOT%%/48/6c/35/ad/486c35ad-dac6-b2cf-5e10-b0092d28388b",
+                                    "label": "Authentication Document"
+                                }
+                            ]
+                        },
                         {
-                            "label" : "Ephemera",
-                            "value" : "http://definitions.artic.edu/doctypes/Ephemera"
-                        }
-                        ,
+                            "value": "%%FCREPO_ROOT%%/df/19/ce/d6/df19ced6-fb59-12d2-38a4-019f99ada28c",
+                            "label": "Condition Report"
+                        },
                         {
-                            "label" : "Confidential",
-                            "value" : "http://definitions.artic.edu/doctypes/Confidential"
-                        }
-                        ,
+                            "value": "%%FCREPO_ROOT%%/53/c2/ec/c3/53c2ecc3-c3f2-4358-2548-4e1cea7a5da8",
+                            "label": "Copyright",
+                            "subtypes": [
+                                {
+                                    "value": "%%FCREPO_ROOT%%/ee/43/70/59/ee437059-23fc-d773-faa9-c176470984ba",
+                                    "label": "Copyright license"
+                                },
+                                {
+                                    "value": "%%FCREPO_ROOT%%/d0/9b/c2/ff/d09bc2ff-7925-46fe-ca7b-a2d575521579",
+                                    "label": "Copyright Correspondence"
+                                },
+                                {
+                                    "value": "%%FCREPO_ROOT%%/3e/f2/5a/1f/3ef25a1f-fddb-1477-90d2-48db76c76944",
+                                    "label": "Correspondence"
+                                }
+                            ]
+                        },
                         {
-                            "label" : "Institutional Archive",
-                            "value" : "http://definitions.artic.edu/doctypes/InstitutionalArchive"
+                            "value": "%%FCREPO_ROOT%%/41/da/a0/5e/41daa05e-03c3-2387-8227-b77a349c7b07",
+                            "label": "Cultural Document",
+                            "subtypes": [
+                                {
+                                    "value": "%%FCREPO_ROOT%%/88/a2/bb/ef/88a2bbef-dcbc-6e56-a96d-2c571571bfba",
+                                    "label": "NAGPRA"
+                                },
+                                {
+                                    "value": "%%FCREPO_ROOT%%/c0/c1/32/79/c0c13279-153d-9d5d-f68e-99daae38d253",
+                                    "label": "Treaty"
+                                },
+                                {
+                                    "value": "%%FCREPO_ROOT%%/e9/4a/b1/84/e94ab184-12e0-147a-1119-ef1de3c9db44",
+                                    "label": "Cultural Consideration"
+                                }
+                            ]
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/21/35/6e/0e/21356e0e-42cb-1046-7bf8-a48c7d8f5337",
+                            "label": "Deed of Gift"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/f6/9f/e7/c6/f69fe7c6-69f8-2a62-f167-4e41d624ffa0",
+                            "label": "Executive Committee Poll Form"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/49/cc/8d/e4/49cc8de4-cd47-0938-d63a-b0b36894f53e",
+                            "label": "Invoice Payment Request"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/bb/1b/55/e0/bb1b55e0-6056-47da-f5cf-0212fc01676c",
+                            "label": "Joint Gift"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/e8/ce/74/15/e8ce7415-e7c4-752e-c22e-3f6c93ac6e5e",
+                            "label": "Justification"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/b1/81/2e/4f/b1812e4f-e57c-54c4-8721-7dfd8cfacc58",
+                            "label": "Partial Interest Deed of Gift"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/07/85/54/27/07855427-ed1e-2ca1-467a-ecc86ef4a6ca",
+                            "label": "Photograph Information Record"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/10/cd/15/a0/10cd15a0-ab6d-0427-bc02-933bad3fc51b",
+                            "label": "Pledge of Funds Agreement"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/ca/e9/e3/d2/cae9e3d2-214f-6cfd-59e0-8b850e0b7421",
+                            "label": "Promised Gift Agreement"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/e5/be/61/69/e5be6169-b704-d1c6-bd77-fae1f50d2a3b",
+                            "label": "Provenance",
+                            "subtypes": [
+                                {
+                                    "value": "%%FCREPO_ROOT%%/e0/97/6a/cb/e0976acb-ece9-23ab-22cc-fea0bd0532d3",
+                                    "label": "Auction Document"
+                                },
+                                {
+                                    "value": "%%FCREPO_ROOT%%/45/c5/7d/1b/45c57d1b-a5e1-ae90-236e-15dfa4e40bf9",
+                                    "label": "Unclaimed Property Documentation"
+                                },
+                                {
+                                    "value": "%%FCREPO_ROOT%%/5e/13/0f/4e/5e130f4e-d666-f06a-66dd-0ee42a3f2008",
+                                    "label": "Correspondence"
+                                }
+                            ]
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/97/55/0e/80/97550e80-3197-9530-1de5-2740465d1d15",
+                            "label": "Purchase Agreement"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/79/aa/c5/10/79aac510-5585-d183-87ab-fea0b258cef0",
+                            "label": "Unclaimed Property Documentation"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/25/2f/5a/23/252f5a23-d2e2-aeae-4bc2-a0b6ce9f5675",
+                            "label": "Year-End Gift Document"
                         }
                     ]
                 },
                 {
-                    "label" : "Registration Document",
-                    "value" : "http://definitions.artic.edu/doctypes/RegistrationDocument",
-                    "subtypes" : [
+                    "value": "%%FCREPO_ROOT%%/bb/72/80/dd/bb7280dd-07e2-c8de-ce3b-0af6c9c62fa8",
+                    "label": "Administrative",
+                    "subtypes": [
                         {
-                            "label" : "Exhibition Receipt",
-                            "value" : "http://definitions.artic.edu/doctypes/ExhibitionReceipt"
+                            "value": "%%FCREPO_ROOT%%/cd/00/46/a1/cd0046a1-6834-801a-f579-a9d1b02a2263",
+                            "label": "Board of Trustees"
                         },
                         {
-                            "label" : "Incoming Receipt",
-                            "value" : "http://definitions.artic.edu/doctypes/IncomingReceipt"
-                        },
-                        {
-                            "label" : "Outgoing Receipt",
-                            "value" : "http://definitions.artic.edu/doctypes/OutgoingReceipt"
-                        },
-                        {
-                            "label" : "Shipping (out and in)",
-                            "value" : "http://definitions.artic.edu/doctypes/Shipping",
-                            "subtypes" : [
+                            "value": "%%FCREPO_ROOT%%/bd/b7/ab/54/bdb7ab54-b91e-add6-5ac8-c14191e7e8d6",
+                            "label": "Committee Meeting Documentation",
+                            "subtypes": [
                                 {
-                                    "label" : "Bill of Lading",
-                                    "value" : "http://definitions.artic.edu/doctypes/BillLading"
-                                }
-                            ]
-                        },
-                        {
-                            "label" : "General Liability Certificate",
-                            "value" : "http://definitions.artic.edu/doctypes/GeneralLiabilityCertificate"
-                        },
-                        {
-                            "label" : "Power of Attorney",
-                            "value" : "http://definitions.artic.edu/doctypes/PowerAttorney"
-                        },
-                        {
-                            "label" : "Certificate of Insurance",
-                            "value" : "http://definitions.artic.edu/doctypes/CertificateInsurance"
-                        },
-                        {
-                            "label" : "Loan Agreement",
-                            "value" : "http://definitions.artic.edu/doctypes/LoanAgreement"
-                        },
-                        {
-                            "label" : "Borrower's Agreement",
-                            "value" : "http://definitions.artic.edu/doctypes/BorrowersAgreement"
-                        },
-                        {
-                            "label" : "Facility Report",
-                            "value" : "http://definitions.artic.edu/doctypes/FacilityReport"
-                        },
-                        {
-                            "label" : "Yellow Sheets",
-                            "value" : "http://definitions.artic.edu/doctypes/YellowSheets"
-                        },
-                        {
-                            "label" : "Valuation",
-                            "value" : "http://definitions.artic.edu/doctypes/Valuation"
-                        },
-                        {
-                            "label" : "Schedule",
-                            "value" : "http://definitions.artic.edu/doctypes/Schedule",
-                            "subtypes" : [
-                                {
-                                    "label" : "Installation",
-                                    "value" : "http://definitions.artic.edu/doctypes/Installation"
+                                    "value": "%%FCREPO_ROOT%%/a9/85/14/d7/a98514d7-191e-ffba-3cc4-cf2b17bad415",
+                                    "label": "Meeting Agenda"
                                 },
                                 {
-                                    "label" : "Deinstallation",
-                                    "value" : "http://definitions.artic.edu/doctypes/Deinstallation"
+                                    "value": "%%FCREPO_ROOT%%/01/31/50/c9/013150c9-5ac6-eb74-2543-ec197baa8048",
+                                    "label": "Meeting Minutes"
                                 },
                                 {
-                                    "label" : "Exhibition",
-                                    "value" : "http://definitions.artic.edu/doctypes/Exhibition"
+                                    "value": "%%FCREPO_ROOT%%/9f/29/53/03/9f295303-25e3-409d-e6dd-40cd60690660",
+                                    "label": "Meeting Presentation"
                                 }
                             ]
                         },
                         {
-                            "label" : "Exhibition Request Form",
-                            "value" : "http://definitions.artic.edu/doctypes/ExhibitionRequestForm"
-                        },
-                        {
-                            "label" : "Warranty",
-                            "value" : "http://definitions.artic.edu/doctypes/Warranty"
-                        },
-                        {
-                            "label" : "Indemnification",
-                            "value" : "http://definitions.artic.edu/doctypes/Indemnification"
+                            "value": "%%FCREPO_ROOT%%/16/b6/0e/6b/16b60e6b-7901-8fcf-97d6-03726cb387cf",
+                            "label": "Executive Committee"
                         }
                     ]
                 },
                 {
-                    "label" : "Acquisition Paperwork",
-                    "value" : "http://definitions.artic.edu/doctypes/AcquisitionPaperwork",
-                    "subtypes" : [
+                    "value": "%%FCREPO_ROOT%%/9d/a7/7e/c2/9da77ec2-cffe-6f85-3cc1-cd884786590c",
+                    "label": "Conservation Document",
+                    "subtypes": [
                         {
-                            "label" : "Justification",
-                            "value" : "http://definitions.artic.edu/doctypes/Justification"
+                            "value": "%%FCREPO_ROOT%%/b1/71/5b/a7/b1715ba7-f84b-10d5-b52b-f534a625f617",
+                            "label": "After Treatment Report"
                         },
                         {
-                            "label" : "Appraisal",
-                            "value" : "http://definitions.artic.edu/doctypes/Appraisal"
+                            "value": "%%FCREPO_ROOT%%/79/8d/85/7d/798d857d-014a-a4d5-5826-a05d6e1cbca3",
+                            "label": "Analysis Report"
                         },
                         {
-                            "label" : "Purchase Agreement",
-                            "value" : "http://definitions.artic.edu/doctypes/PurchaseAgreement"
+                            "value": "%%FCREPO_ROOT%%/b8/9b/b4/81/b89bb481-a4f6-bb03-b7d6-d7b3295da6c2",
+                            "label": "Condition Report"
                         },
                         {
-                            "label" : "Executive Committee Poll Form",
-                            "value" : "http://definitions.artic.edu/doctypes/ExecutiveCommitteePollForm"
+                            "value": "%%FCREPO_ROOT%%/fa/b3/10/70/fab31070-f5c7-49ed-92f5-b79d5313b61d",
+                            "label": "Conservation Report"
                         },
                         {
-                            "label" : "Bargain Sale Agreement",
-                            "value" : "http://definitions.artic.edu/doctypes/BargainSaleAgreement"
+                            "value": "%%FCREPO_ROOT%%/fd/12/5c/46/fd125c46-030b-6a3d-0610-3340c447a28a",
+                            "label": "Examination Report"
                         },
                         {
-                            "label" : "Joint Gift",
-                            "value" : "http://definitions.artic.edu/doctypes/JointGift"
+                            "value": "%%FCREPO_ROOT%%/ad/ab/5b/dc/adab5bdc-f189-80c3-d9fd-74df4fca6755",
+                            "label": "Incoming Examination"
                         },
                         {
-                            "label" : "Pledge of Funds Agreement",
-                            "value" : "http://definitions.artic.edu/doctypes/PledgeFundsAgreement"
+                            "value": "%%FCREPO_ROOT%%/35/1b/fb/8a/351bfb8a-6e61-08bb-c096-14cd2d81b1e8",
+                            "label": "Note to file"
                         },
                         {
-                            "label" : "Promised Gift Agreement",
-                            "value" : "http://definitions.artic.edu/doctypes/PromisedGiftAgreement"
+                            "value": "%%FCREPO_ROOT%%/e2/aa/9b/b6/e2aa9bb6-b419-f198-0775-28c9929b0c42",
+                            "label": "Outgoing Examination"
                         },
                         {
-                            "label" : "Partial Interest Deed of Gift",
-                            "value" : "http://definitions.artic.edu/doctypes/PartialInterestDeedGift"
+                            "value": "%%FCREPO_ROOT%%/9a/63/28/1c/9a63281c-92f3-dc5a-0f01-4142a8f6f204",
+                            "label": "Outside Conservator Report"
                         },
                         {
-                            "label" : "Deed of Gift",
-                            "value" : "http://definitions.artic.edu/doctypes/DeedGift"
+                            "value": "%%FCREPO_ROOT%%/57/9d/fd/05/579dfd05-fc4f-e442-6b20-23f853f4d5e7",
+                            "label": "Pre-loan Examination"
                         },
                         {
-                            "label" : "Bequest",
-                            "value" : "http://definitions.artic.edu/doctypes/Bequest",
-                            "subtypes" : [
-                                {       
-                                    "label" : "Will",
-                                    "value" : "http://definitions.artic.edu/doctypes/Will"
-                                }
-                            ]
+                            "value": "%%FCREPO_ROOT%%/99/52/d3/b6/9952d3b6-e22f-2fe1-46b9-50712eb34e82",
+                            "label": "Treatment Proposal"
                         },
                         {
-                            "label" : "Condition Report",
-                            "value" : "http://definitions.artic.edu/doctypes/ConditionReport"
-                        },
-                        {
-                            "label" : "Provenance",
-                            "value" : "http://definitions.artic.edu/doctypes/Provenance",
-                            "subtypes" : [
-                                {       
-                                    "label" : "Auction Document",
-                                    "value" : "http://definitions.artic.edu/doctypes/AuctionDocument"
-                                },
-                                {       
-                                    "label" : "Unclaimed Property Documentation",
-                                    "value" : "http://definitions.artic.edu/doctypes/UnclaimedPropertyDocumentation"
-                                },
-                                {       
-                                    "label" : "Correspondence",
-                                    "value" : "http://definitions.artic.edu/doctypes/CorrespondenceOther"
-                                }
-                            ]
-                        },
-                        {
-                            "label" : "Cultural Document",
-                            "value" : "http://definitions.artic.edu/doctypes/CulturalDocument",
-                            "subtypes" : [
-                                {       
-                                    "label" : "NAGPRA",
-                                    "value" : "http://definitions.artic.edu/doctypes/NAGPRA"
-                                },
-                                {       
-                                    "label" : "Treaty",
-                                    "value" : "http://definitions.artic.edu/doctypes/Treaty"
-                                },
-                                {       
-                                    "label" : "Cultural Consideration",
-                                    "value" : "http://definitions.artic.edu/doctypes/CulturalConsideration"
-                                }
-                            ]
-                        },
-                        {
-                            "label" : "Art Loss Certificate",
-                            "value" : "http://definitions.artic.edu/doctypes/ArtLossCertificate"
-                        },
-                        {
-                            "label" : "Invoice Payment Request",
-                            "value" : "http://definitions.artic.edu/doctypes/InvoicePaymentRequest"
-                        },
-                        {
-                            "label" : "Certificate of Authenticity",
-                            "value" : "http://definitions.artic.edu/doctypes/CertificateAuthenticity",
-                            "subtypes" : [
-                                {       
-                                    "label" : "Authentication Document",
-                                    "value" : "http://definitions.artic.edu/doctypes/AuthenticationDocument"
-                                }
-                            ]
-                        },
-                        {
-                            "label" : "Year-End Gift Document",
-                            "value" : "http://definitions.artic.edu/doctypes/YearEndGiftDocument"
-                        },
-                        {
-                            "label" : "Photograph Information Record",
-                            "value" : "http://definitions.artic.edu/doctypes/PhotographInformationRecord"
-                        },
-                        {
-                            "label" : "Copyright",
-                            "value" : "http://definitions.artic.edu/doctypes/Copyright",
-                            "subtypes" : [
-                                {       
-                                    "label" : "Copyright license",
-                                    "value" : "http://definitions.artic.edu/doctypes/CopyrightLicense"
-                                },
-                                {       
-                                    "label" : "Copyright Correspondence",
-                                    "value" : "http://definitions.artic.edu/doctypes/CopyrightCorrespondence"
-                                },
-                                {       
-                                    "label" : "Correspondence",
-                                    "value" : "http://definitions.artic.edu/doctypes/Correspondence"
-                                }
-                            ]
-                        },
-                        {
-                            "label" : "Unclaimed Property Documentation",
-                            "value" : "http://definitions.artic.edu/doctypes/UnclaimedPropertyDocumentation"
+                            "value": "%%FCREPO_ROOT%%/ee/cf/06/80/eecf0680-ef0f-c09c-85e9-a445e8a169ff",
+                            "label": "Treatment Report"
                         }
                     ]
                 },
                 {
-                    "label" : "Administrative",
-                    "value" : "http://definitions.artic.edu/doctypes/Administrative",
-                    "subtypes" : [
+                    "value": "%%FCREPO_ROOT%%/e3/08/1a/6b/e3081a6b-eac0-47a7-efa7-b34fcb5ae17b",
+                    "label": "Curatorial Document",
+                    "subtypes": [
                         {
-                            "label" : "Committee Meeting Documentation",
-                            "value" : "http://definitions.artic.edu/doctypes/CommitteeMeetingDocumentation",
-                            "subtypes" : [
-                                {       
-                                    "label" : "Meeting Minutes",
-                                    "value" : "http://definitions.artic.edu/doctypes/MeetingMinutes"
-                                },
-                                {       
-                                    "label" : "Meeting Presentation",
-                                    "value" : "http://definitions.artic.edu/doctypes/MeetingPresentation"
-                                },
-                                {       
-                                    "label" : "Meeting Agenda",
-                                    "value" : "http://definitions.artic.edu/doctypes/MeetingAgenda"
-                                }
-                            ]
+                            "value": "%%FCREPO_ROOT%%/34/ee/91/17/34ee9117-f12b-af2b-2bb0-a0e008f77bdc",
+                            "label": "Article"
                         },
                         {
-                            "label" : "Board of Trustees",
-                            "value" : "http://definitions.artic.edu/doctypes/BoardTrustees"
+                            "value": "%%FCREPO_ROOT%%/b9/8e/3b/a8/b98e3ba8-6601-5235-2ae4-80b64842d074",
+                            "label": "Artist Biography"
                         },
                         {
-                            "label" : "Executive Committee",
-                            "value" : "http://definitions.artic.edu/doctypes/ExecutiveCommittee"
-                        }
-                    ]
-                },
-                {
-                    "label" : "Curatorial Document",
-                    "value" : "http://definitions.artic.edu/doctypes/CuratorialDocument",
-                    "subtypes" : [
-                        {
-                            "label" : "Artist Biography",
-                            "value" : "http://definitions.artic.edu/doctypes/ArtistBiography"
+                            "value": "%%FCREPO_ROOT%%/7e/bc/fe/c1/7ebcfec1-038a-81c5-391d-244becdf9d63",
+                            "label": "Artist Questionnaire"
                         },
                         {
-                            "label" : "Article",
-                            "value" : "http://definitions.artic.edu/doctypes/Article"
+                            "value": "%%FCREPO_ROOT%%/3a/60/96/ca/3a6096ca-599a-2195-9050-ce63270b497b",
+                            "label": "Artist Work Specs"
                         },
                         {
-                            "label" : "Artist Work Specs",
-                            "value" : "http://definitions.artic.edu/doctypes/ArtistWorkSpecs"
+                            "value": "%%FCREPO_ROOT%%/b6/1c/28/d8/b61c28d8-25e5-487d-c1ec-b066146dd34b",
+                            "label": "Auction Catalogue"
                         },
                         {
-                            "label" : "Scholarly Research",
-                            "value" : "http://definitions.artic.edu/doctypes/ScholarlyResearch",
-                            "subtypes" : [
+                            "value": "%%FCREPO_ROOT%%/de/c2/59/85/dec25985-d8e1-86cd-d63d-f3466c94e234",
+                            "label": "Bibliography"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/05/4b/fe/05/054bfe05-c48b-f8b2-691b-18c9f10d6291",
+                            "label": "Cataloging Worksheet"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/e5/2e/4a/fc/e52e4afc-0bb0-03ef-29b9-b2b2d8ba663b",
+                            "label": "Frame Documentation"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/89/04/66/af/890466af-db74-f6a6-9352-ee87f31a1140",
+                            "label": "Indemnity Document"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/90/20/0b/25/90200b25-bc97-cb61-a147-dfae8d5c4226",
+                            "label": "Lecture"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/76/32/62/e3/763262e3-61ad-58ae-124b-f44e0758584f",
+                            "label": "Loan Approval Letter"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/9b/a2/d2/dd/9ba2d2dd-3378-e8e4-c81a-052bd901be31",
+                            "label": "Loan Decline Letter"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/f0/0f/16/be/f00f16be-04e1-410e-9c40-168ee9ec4f88",
+                            "label": "Non-lending Document"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/cf/02/6b/44/cf026b44-9bf4-06bb-8a16-26e009a6f27f",
+                            "label": "Old Object Card"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/c8/57/56/bf/c85756bf-a59c-7460-b347-0bc2a76d0ee8",
+                            "label": "Scholarly Research",
+                            "subtypes": [
                                 {
-                                    "label" : "Curatorial",
-                                    "value" : "http://definitions.artic.edu/doctypes/Curatorial"
+                                    "value": "%%FCREPO_ROOT%%/42/2c/bb/ef/422cbbef-b933-364c-74bc-310e4a316c7b",
+                                    "label": "Curatorial"
                                 },
                                 {
-                                    "label" : "Outside Researcher",
-                                    "value" : "http://definitions.artic.edu/doctypes/OutsideResearcher"
+                                    "value": "%%FCREPO_ROOT%%/10/d8/4b/23/10d84b23-be47-c53d-c4c8-1442398dbeca",
+                                    "label": "Outside Researcher"
                                 }
                             ]
                         },
                         {
-                            "label" : "Old Object Card",
-                            "value" : "http://definitions.artic.edu/doctypes/OldObjectCard"
-                        },
-                        {
-                            "label" : "Loan Approval Letter",
-                            "value" : "http://definitions.artic.edu/doctypes/LoanApprovalLetter"
-                        },
-                        {
-                            "label" : "Loan Decline Letter",
-                            "value" : "http://definitions.artic.edu/doctypes/LoanDeclineLetter"
-                        },
-                        {
-                            "label" : "Frame Documentation",
-                            "value" : "http://definitions.artic.edu/doctypes/FrameDocumentation"
-                        },
-                        {
-                            "label" : "Stolen Art Documentation",
-                            "value" : "http://definitions.artic.edu/doctypes/StolenArtDocumentation"
-                        },
-                        {
-                            "label" : "Cataloging Worksheet",
-                            "value" : "http://definitions.artic.edu/doctypes/CatalogingWorksheet"
-                        },
-                        {
-                            "label" : "Artist Questionnaire",
-                            "value" : "http://definitions.artic.edu/doctypes/ArtistQuestionnaire"
-                        },
-                        {
-                            "label" : "Auction Catalogue",
-                            "value" : "http://definitions.artic.edu/doctypes/AuctionCatalogue"
-                        },
-                        {
-                            "label" : "Non-lending Document",
-                            "value" : "http://definitions.artic.edu/doctypes/NonLendingDocument"
-                        },
-                        {
-                            "label" : "Indemnity Document",
-                            "value" : "http://definitions.artic.edu/doctypes/IndemnityDocument"
-                        },
-                        {
-                            "label" : "Bibliography",
-                            "value" : "http://definitions.artic.edu/doctypes/Bibliography"
-                        },
-                        {
-                            "label" : "Lecture",
-                            "value" : "http://definitions.artic.edu/doctypes/LectureOther"
+                            "value": "%%FCREPO_ROOT%%/61/4f/8f/ac/614f8fac-e12b-0e8a-3da4-46104312c6fa",
+                            "label": "Stolen Art Documentation"
                         }
                     ]
                 },
                 {
-                    "label" : "Deaccession Document",
-                    "value" : "http://definitions.artic.edu/doctypes/DeaccessionDocument",
-                    "subtypes" : [
+                    "value": "%%FCREPO_ROOT%%/35/9f/a4/61/359fa461-92a8-e0bf-4d5b-b413a1192ea9",
+                    "label": "Deaccession Document",
+                    "subtypes": [
                         {
-                            "label" : "Auction House",
-                            "value" : "http://definitions.artic.edu/doctypes/AuctionHouse"
+                            "value": "%%FCREPO_ROOT%%/67/1f/83/66/671f8366-3e9d-37f9-2d55-1cc011da4297",
+                            "label": "Auction House"
                         },
                         {
-                            "label" : "Conservation",
-                            "value" : "http://definitions.artic.edu/doctypes/Conservation"
+                            "value": "%%FCREPO_ROOT%%/9f/cc/90/03/9fcc9003-f8e7-74d4-cff2-ce30383b41bd",
+                            "label": "Conservation"
                         },
                         {
-                            "label" : "Gift (Donation) Agreement",
-                            "value" : "http://definitions.artic.edu/doctypes/GiftDonationAgreement"
+                            "value": "%%FCREPO_ROOT%%/ed/72/2d/f3/ed722df3-c93a-8dda-7884-303ccc1962a9",
+                            "label": "Gift (Donation) Agreement"
                         },
                         {
-                            "label" : "Bill of Sale",
-                            "value" : "http://definitions.artic.edu/doctypes/BillSale"
+                            "value": "%%FCREPO_ROOT%%/88/15/17/bb/881517bb-47af-9e09-f917-e0c9bbaf109d",
+                            "label": "Bill of Sale"
                         },
                         {
-                            "label" : "Private Sale",
-                            "value" : "http://definitions.artic.edu/doctypes/PrivateSale"
+                            "value": "%%FCREPO_ROOT%%/af/15/2e/de/af152ede-2716-4422-ba0f-37f0093edad3",
+                            "label": "Private Sale"
                         },
                         {
-                            "label" : "Directors Approval Form",
-                            "value" : "http://definitions.artic.edu/doctypes/DirectorsApprovalForm"
+                            "value": "%%FCREPO_ROOT%%/54/d2/12/62/54d21262-21e4-0306-8eb1-022e65ef00a1",
+                            "label": "Directors Approval Form"
                         }
                     ]
                 },
                 {
-                    "label" : "Publications Document",
-                    "value" : "http://definitions.artic.edu/doctypes/PublicationsDocument",
-                    "subtypes" : [
+                    "value": "%%FCREPO_ROOT%%/0d/fa/ee/5f/0dfaee5f-fef3-8d18-a9ab-9f218a82c8e9",
+                    "label": "Design and Construction"
+                },
+                {
+                    "value": "%%FCREPO_ROOT%%/6e/78/7e/19/6e787e19-9659-49bd-d680-ee8dfa689e31",
+                    "label": "Development"
+                },
+                {
+                    "value": "%%FCREPO_ROOT%%/50/1e/6c/6a/501e6c6a-3d5b-589a-a7fc-6f3bc344b58c",
+                    "label": "General",
+                    "subtypes": [
                         {
-                            "label" : "Label",
-                            "value" : "http://definitions.artic.edu/doctypes/Label"
+                            "value": "%%FCREPO_ROOT%%/2d/45/13/53/2d451353-4e10-b851-aaf6-84ee29d01e06",
+                            "label": "Correspondence"
                         },
                         {
-                            "label" : "Catalogue",
-                            "value" : "http://definitions.artic.edu/doctypes/Catalogue"
+                            "value": "%%FCREPO_ROOT%%/4a/06/bc/0c/4a06bc0c-319f-95be-0e98-9d2ebdedf5a4",
+                            "label": "Acquisition Document"
                         },
                         {
-                            "label" : "DSC (Digital Scholarly Catalogue)",
-                            "value" : "http://definitions.artic.edu/doctypes/DigitalScholarlyCatalogue"
+                            "value": "%%FCREPO_ROOT%%/79/50/87/cf/795087cf-7109-0143-4386-f772dfd2d436",
+                            "label": "Contract",
+                            "subtypes": [
+                                {
+                                    "value": "%%FCREPO_ROOT%%/22/86/83/c2/228683c2-e970-b72d-140d-8da264abb6be",
+                                    "label": "Art Commission Contract"
+                                },
+                                {
+                                    "value": "%%FCREPO_ROOT%%/ab/68/8b/2a/ab688b2a-98e4-573d-882c-1dcef1c1e534",
+                                    "label": "Auction Sales Contract"
+                                },
+                                {
+                                    "value": "%%FCREPO_ROOT%%/3d/4d/67/ed/3d4d67ed-9b5e-16e1-fa4e-c5a08be5e986",
+                                    "label": "Exhibition Contract"
+                                },
+                                {
+                                    "value": "%%FCREPO_ROOT%%/77/7a/d5/7f/777ad57f-e51c-9ef9-3f13-ea685adae04c",
+                                    "label": "Master Vendor Contract"
+                                }
+                            ]
                         },
                         {
-                            "label" : "Book",
-                            "value" : "http://definitions.artic.edu/doctypes/Book"
+                            "value": "%%FCREPO_ROOT%%/f9/24/e7/3c/f924e73c-df7a-77d1-38e2-47d9e9f21450",
+                            "label": "Confidential"
                         },
                         {
-                            "label" : "Pamphlet",
-                            "value" : "http://definitions.artic.edu/doctypes/Pamphlet"
+                            "value": "%%FCREPO_ROOT%%/4e/7c/3f/84/4e7c3f84-a2d7-d8a8-e2fe-b1fca48a7ffd",
+                            "label": "Ephemera"
                         },
                         {
-                            "label" : "Annual Report",
-                            "value" : "http://definitions.artic.edu/doctypes/AnnualReport"
+                            "value": "%%FCREPO_ROOT%%/ed/b7/4c/8b/edb74c8b-2837-d389-9fd9-538e43c32674",
+                            "label": "Fundraising"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/6d/20/bb/49/6d20bb49-f4a0-e4c6-02f6-45679be9a88a",
+                            "label": "Institutional Archive"
                         }
                     ]
                 },
                 {
-                    "label" : "Conservation Document",
-                    "value" : "http://definitions.artic.edu/doctypes/ConservationDocument",
-                    "subtypes" : [
+                    "value": "%%FCREPO_ROOT%%/77/2f/fd/29/772ffd29-1867-3af7-d970-45b3fb2baab0",
+                    "label": "Marketing"
+                },
+                {
+                    "value": "%%FCREPO_ROOT%%/f4/e6/f7/98/f4e6f798-330b-5cb2-62fd-943b92cfc0e9",
+                    "label": "Museum Education"
+                },
+                {
+                    "value": "%%FCREPO_ROOT%%/46/22/35/6e/4622356e-9f05-bf14-9246-21b5ca77254e",
+                    "label": "Publications Document",
+                    "subtypes": [
                         {
-                            "label" : "Examination Report",
-                            "value" : "http://definitions.artic.edu/doctypes/ExaminationReport"
+                            "value": "%%FCREPO_ROOT%%/82/20/c4/15/8220c415-fbfc-b879-cb3a-757e66507ce4",
+                            "label": "Annual Report"
                         },
                         {
-                            "label" : "Conservation Report",
-                            "value" : "http://definitions.artic.edu/doctypes/ConservationReport"
+                            "value": "%%FCREPO_ROOT%%/5c/b3/9f/c9/5cb39fc9-b24b-df45-fb50-62cd71819678",
+                            "label": "Book"
                         },
                         {
-                            "label" : "Treatment Proposal",
-                            "value" : "http://definitions.artic.edu/doctypes/TreatmentProposal"
+                            "value": "%%FCREPO_ROOT%%/9d/cb/49/46/9dcb4946-324f-7354-a049-1c2d7d12b72b",
+                            "label": "Catalogue"
                         },
                         {
-                            "label" : "Treatment Report",
-                            "value" : "http://definitions.artic.edu/doctypes/TreatmentReport"
+                            "value": "%%FCREPO_ROOT%%/67/0d/0d/c3/670d0dc3-2eef-11df-eaaa-ce025ec3df0e",
+                            "label": "DSC (Digital Scholarly Catalogue)"
                         },
                         {
-                            "label" : "Note to file",
-                            "value" : "http://definitions.artic.edu/doctypes/NoteFile"
+                            "value": "%%FCREPO_ROOT%%/d2/4f/2e/37/d24f2e37-2baa-7e17-966d-d339eb0df2c3",
+                            "label": "Label"
                         },
                         {
-                            "label" : "Pre-loan Examination",
-                            "value" : "http://definitions.artic.edu/doctypes/PreLoanExamination"
-                        },
-                        {
-                            "label" : "Outgoing Examination",
-                            "value" : "http://definitions.artic.edu/doctypes/OutgoingExamination"
-                        },
-                        {
-                            "label" : "Incoming Examination",
-                            "value" : "http://definitions.artic.edu/doctypes/IncomingExamination"
-                        },
-                        {
-                            "label" : "Analysis Report",
-                            "value" : "http://definitions.artic.edu/doctypes/AnalysisReport"
-                        },
-                        {
-                            "label" : "Condition Report",
-                            "value" : "http://definitions.artic.edu/doctypes/ConditionReportOther"
-                        },
-                        {
-                            "label" : "After Treatment Report",
-                            "value" : "http://definitions.artic.edu/doctypes/AfterTreatmentReport"
-                        },
-                        {
-                            "label" : "Outside Conservator Report",
-                            "value" : "http://definitions.artic.edu/doctypes/OutsideConservatorReport"
+                            "value": "%%FCREPO_ROOT%%/89/32/27/85/89322785-b79b-3e32-0952-61542fda7523",
+                            "label": "Pamphlet"
                         }
                     ]
                 },
                 {
-                    "label" : "Ryerson Library",
-                    "value" : "http://definitions.artic.edu/doctypes/RyersonLibraryText",
-                    "subtypes" : [
+                    "value": "%%FCREPO_ROOT%%/f3/50/b5/5d/f350b55d-e8e0-c8bb-9e7d-a1d29e4ca197",
+                    "label": "Registration Document",
+                    "subtypes": [
                         {
-                            "label" : "Ryerson Special Collections",
-                            "value" : "http://definitions.artic.edu/doctypes/RyersonSpecialCollectionsText"
+                            "value": "%%FCREPO_ROOT%%/aa/3f/75/07/aa3f7507-c25b-e56d-d790-303c83e4ca34",
+                            "label": "Borrower's Agreement"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/e8/3f/56/44/e83f5644-8b73-d271-1b79-73ca3c2d0efe",
+                            "label": "Certificate of Insurance"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/64/8b/5b/ba/648b5bba-1731-7047-f7ee-e5af97c5c619",
+                            "label": "Exhibition Receipt"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/ec/9d/17/91/ec9d1791-dd8b-04ab-112c-ce4923bd0918",
+                            "label": "Exhibition Request Form"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/af/0b/10/49/af0b1049-c32e-e214-42fe-c6b2f9e55d60",
+                            "label": "Facility Report"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/8c/2d/6d/08/8c2d6d08-f4e2-c990-253d-c87954c8eca0",
+                            "label": "General Liability Certificate"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/06/1e/bf/b8/061ebfb8-d91e-d7ca-b4de-b77092c292df",
+                            "label": "Incoming Receipt"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/c0/26/14/3b/c026143b-4213-b80f-cef0-d237449b4667",
+                            "label": "Indemnification"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/93/73/73/9d/9373739d-29c3-df50-8f92-d65a7d489fb0",
+                            "label": "Loan Agreement"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/6d/1e/aa/45/6d1eaa45-fdb6-13d2-15ee-46360c1cbab4",
+                            "label": "Outgoing Receipt"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/fa/0a/92/97/fa0a9297-d451-f823-288c-44a0fc083be7",
+                            "label": "Power of Attorney"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/87/68/bf/3e/8768bf3e-3fce-4e67-8aae-2c788b715d5a",
+                            "label": "Schedule",
+                            "subtypes": [
+                                {
+                                    "value": "%%FCREPO_ROOT%%/9b/f3/41/bf/9bf341bf-9d53-c450-5837-04e6efd27fb7",
+                                    "label": "Deinstallation"
+                                },
+                                {
+                                    "value": "%%FCREPO_ROOT%%/f9/6a/40/8f/f96a408f-ec09-5efd-080f-39ad348d07a3",
+                                    "label": "Exhibition"
+                                },
+                                {
+                                    "value": "%%FCREPO_ROOT%%/4e/f7/15/7a/4ef7157a-d449-ab91-2926-382e9974e176",
+                                    "label": "Installation"
+                                }
+                            ]
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/de/f3/2a/93/def32a93-ed1f-d2de-5299-b071e709fd1a",
+                            "label": "Shipping (out and in)",
+                            "subtypes": [
+                                {
+                                    "value": "%%FCREPO_ROOT%%/7d/d3/0e/63/7dd30e63-3a70-1fa9-7fd7-725330675c38",
+                                    "label": "Bill of Lading"
+                                }
+                            ]
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/82/60/98/24/82609824-271a-1885-526c-704ab97abc6f",
+                            "label": "Valuation"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/fb/98/11/03/fb981103-b888-ab9c-e01d-974531e4bf9b",
+                            "label": "Warranty"
+                        },
+                        {
+                            "value": "%%FCREPO_ROOT%%/d6/69/58/d7/d66958d7-d18d-86f3-ce55-983d8142131c",
+                            "label": "Yellow Sheets"
                         }
                     ]
                 },
                 {
-                    "label" : "Design and Construction",
-                    "value" : "http://definitions.artic.edu/doctypes/DesignConstructionText"
-                },
-                {
-                    "label" : "Museum Education",
-                    "value" : "http://definitions.artic.edu/doctypes/MuseumEducationText"
-                },
-                {
-                    "label" : "Development",
-                    "value" : "http://definitions.artic.edu/doctypes/DevelopmentText"
-                }
-                ,
-                {
-                    "label" : "Marketing",
-                    "value" : "http://definitions.artic.edu/doctypes/MarketingText"
+                    "value": "%%FCREPO_ROOT%%/61/2f/8e/a7/612f8ea7-f6e1-7a8f-4022-ae07f7822442",
+                    "label": "Ryerson Library",
+                    "subtypes": [
+                        {
+                            "value": "%%FCREPO_ROOT%%/26/92/a8/54/2692a854-f23f-8d00-0511-d62feb204b61",
+                            "label": "Ryerson Special Collections"
+                        }
+                    ]
                 }
             ]
         }

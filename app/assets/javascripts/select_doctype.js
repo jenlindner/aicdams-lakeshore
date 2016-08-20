@@ -1,5 +1,9 @@
 // Controls the display of the Document type when creating new assets
 
+function addFcrepoPfx(uri) {
+    return uri.replace('%%FCREPO_ROOT%%', fcrepo_root)
+}
+
 (function( $ ){
   $.fn.selectDoctype = function( options ) {
 
@@ -19,21 +23,22 @@
 			getListValues: function(docType, totalDocTypes) {
 				var totalSubtypes;
 				for (var i = 0; i < totalDocTypes.length; i++) {
-					if (docType == totalDocTypes[i]['value']) {
+					if (docType == addFcrepoPfx(totalDocTypes[i]['value'])) {
 						totalSubtypes = totalDocTypes[i].subtypes;
 					}
 				}
 				return totalSubtypes;	
 			},
 
-			makeDropdown: function(selectListForm, selection, totalOptions) {
+			makeDropdown: function(selectListForm, selection, totalOptions=[]) {
 				if (totalOptions.length) {
 					for (var i = 0; i < totalOptions.length; i++) {
 						var dataVals = [];
 						var selected;
 						dataVals = totalOptions[i];
-						selectListForm.append("<option value=" + dataVals['value'] + " label=" + dataVals['label'] + ">" + dataVals['label'] + "</option>");
-						if (selection == dataVals['value']) {
+                        doctype_uri = addFcrepoPfx(dataVals['value'])
+						selectListForm.append("<option value=" + doctype_uri + " label=" + dataVals['label'] + ">" + dataVals['label'] + "</option>");
+						if (selection == doctype_uri) {
 							selected = i;
 							selectListForm.prop('selectedIndex', selected);
 						}
