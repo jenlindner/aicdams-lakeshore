@@ -1,5 +1,7 @@
 <%= simple_form_for [sufia, @form], html: { multipart: true } do |f| %>
   <% content_for :files_tab do %>
+  <% dept_created = f.object.dept_created unless f.object.dept_created.nil? %>
+  <%= hidden_field_tag 'dept_created', f.object.dept_created.pref_label %>
     <p class="instructions"><%= t("sufia.batch_uploads.files.instructions") %></p>
     <%= render 'records/edit_fields/asset_type.html', f: f, key: :asset_type %>
   <% end %>

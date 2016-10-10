@@ -259,6 +259,7 @@ GEM
     devise-guests (0.5.0)
       devise
     diff-lcs (1.2.5)
+    docile (1.1.5)
     dropbox-sdk (1.6.5)
       json
     ebnf (1.0.1)
@@ -610,6 +611,11 @@ GEM
     simple_form (3.3.1)
       actionpack (> 4, < 5.1)
       activemodel (> 4, < 5.1)
+    simplecov (0.12.0)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
     sinatra (1.4.7)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -720,6 +726,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   shoulda-matchers (~> 3.1)
+  simplecov
   solr_wrapper
   sqlite3
   sufia!
@@ -728,4 +735,4 @@ DEPENDENCIES
   xray-rails
 
 BUNDLED WITH
-   1.12.5
+   1.13.2

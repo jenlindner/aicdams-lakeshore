@@ -7,12 +7,16 @@ class Sufia::BatchUploadsController < ApplicationController
   end
 
   def create_update_job
+    attributes = []
+    attributes << attributes_for_actor
+    attributes << params[:dept_created]
+
     log = Sufia::BatchCreateOperation.create!(user: current_user,
                                               operation_type: "Batch Create")
     ::BatchAssetCreateJob.perform_later(current_user,
                                         params[:pref_label],
                                         params[:uploaded_files],
-                                        attributes_for_actor,
+                                        attributes,
                                         log)
   end
 end

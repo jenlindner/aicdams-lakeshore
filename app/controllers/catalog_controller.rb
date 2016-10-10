@@ -53,6 +53,7 @@ class CatalogController < ApplicationController
     config.add_facet_field solr_name("aic_type", :facetable), label: "Resource Type", limit: 5
     config.add_facet_field solr_name("creator", :facetable), label: "Creator", limit: 5
     config.add_facet_field solr_name("keyword", :facetable), label: "Keyword", limit: 5
+    config.add_facet_field solr_name("dept_created", :facetable), label: AIC.deptCreated.label, limit: 1
     config.add_facet_field solr_name("subject", :facetable), label: "Subject", limit: 5
     config.add_facet_field solr_name("language", :facetable), label: "Language", limit: 5
     config.add_facet_field solr_name("based_near", :facetable), label: "Location", limit: 5
@@ -69,18 +70,18 @@ class CatalogController < ApplicationController
     config.add_facet_fields_to_solr_request!
 
     # Index view fields
-    config.add_index_field solr_name("depositor", :stored_searchable), label: "Depositor"
+    config.add_index_field solr_name("depositor", :stored_searchable), label: "Depositor", link_to_search: true
     config.add_index_field solr_name("pref_label", :stored_searchable),      label: "Title"
-    config.add_index_field solr_name("uid", :symbol),                        label: AIC.uid.label
+    config.add_index_field solr_name("uid", :symbol), label: AIC.uid.label
     config.add_index_field solr_name("main_ref_number", :stored_searchable), label: AIC.mainRefNumber.label
-    config.add_index_field solr_name("document_types", :stored_searchable),  label: AIC.documentType.label
-    config.add_index_field solr_name("resource_type", :stored_searchable),   label: "Resource Type"
+    config.add_index_field solr_name("document_types", :stored_searchable), label: AIC.documentType.label, link_to_search: true
+    config.add_index_field solr_name("resource_type", :stored_searchable), label: "Resource Type", link_to_search: true
     config.add_index_field solr_name('credit_line', :stored_searchable),     label: AIC.creditLine.label
-    config.add_index_field solr_name('dept_created', :stored_searchable),    label: AIC.deptCreated.label
+    config.add_index_field solr_name('dept_created', :stored_searchable), label: AIC.deptCreated.label, link_to_search: true
     config.add_index_field solr_name('department', :stored_searchable),      label: AIC.department.label
     config.add_index_field solr_name("relationships", :stored_searchable, type: :integer), label: "Related Assets"
-    config.add_index_field solr_name("date_uploaded", :stored_sortable, type: :date), label: "Date Uploaded", itemprop: 'datePublished', helper_method: :human_readable_date
-    config.add_index_field solr_name("date_modified", :stored_sortable, type: :date), label: "Date Modified", itemprop: 'dateModified', helper_method: :human_readable_date
+    config.add_index_field solr_name("date_uploaded", :stored_sortable, type: :date), link_to_search: true, label: "Date Uploaded", itemprop: 'datePublished', helper_method: :human_readable_date
+    config.add_index_field solr_name("date_modified", :stored_sortable, type: :date), link_to_search: true, label: "Date Modified", itemprop: 'dateModified', helper_method: :human_readable_date
 
     # Resource fields
     config.add_show_field solr_name("contributor", :stored_searchable),   label: AIC.contributor.label
