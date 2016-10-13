@@ -64,6 +64,7 @@ class CatalogController < ApplicationController
     config.add_facet_field solr_name("representation", :facetable), label: "Relationship"
     config.add_facet_field solr_name("document_types", :facetable), label: AIC.documentType.label
 
+
     # Have BL send all facet field names to Solr, which has been the default
     # previously. Simply remove these lines if you'd rather use Solr request
     # handler defaults, or have no facets.
@@ -80,8 +81,8 @@ class CatalogController < ApplicationController
     config.add_index_field solr_name('dept_created', :stored_searchable), label: AIC.deptCreated.label, link_to_search: true
     config.add_index_field solr_name('department', :stored_searchable),      label: AIC.department.label
     config.add_index_field solr_name("relationships", :stored_searchable, type: :integer), label: "Related Assets"
-    config.add_index_field solr_name("date_uploaded", :stored_sortable, type: :date), link_to_search: true, label: "Date Uploaded", itemprop: 'datePublished', helper_method: :human_readable_date
-    config.add_index_field solr_name("date_modified", :stored_sortable, type: :date), link_to_search: true, label: "Date Modified", itemprop: 'dateModified', helper_method: :human_readable_date
+    config.add_index_field solr_name("date_uploaded", :stored_sortable, type: :date), link_to_search: "datePublished", label: "Date Uploaded", itemprop: 'datePublished', helper_method: :human_readable_date
+    config.add_index_field solr_name("date_modified", :stored_sortable, type: :date), link_to_search: solr_name("date_modified", :stored_sortable, type: :date), label: "Date Modified", itemprop: 'dateModified', helper_method: :link_to_human_readable_date
 
     # Resource fields
     config.add_show_field solr_name("contributor", :stored_searchable),   label: AIC.contributor.label

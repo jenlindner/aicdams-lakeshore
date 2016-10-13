@@ -16,6 +16,15 @@ class CitiIndexer < ActiveFedora::IndexingService
 
   private
 
+  def representations(types = [])
+    r = OutboundRelationships.new(object.id)
+    return types unless r.present?
+    types << "Has Document" unless r.documents.empty?
+    types << "Has Representation" unless r.representations.empty?
+    types << "Has Preferred Representation" unless r.preferred_representation.nil?
+    types
+  end
+
     def relationship_count
       count = object.documents.length + object.representations.length
       count + 1 if object.preferred_representation
