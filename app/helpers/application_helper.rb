@@ -31,4 +31,17 @@ module ApplicationHelper
     citi_tbl_id = citi_tbl_ids[model.to_sym]
     link_to "View this #{model} in CITI", "http://citiworker10.artic.edu:8080/edit/?tableID=" + citi_tbl_id.to_s + "&uid=" + citi_uid.to_s, target: "_blank", class: "btn btn-default citi-btn"
   end
+
+  def link_to_human_readable_date(options)
+    value = options[:value].first
+
+    label = Date.parse(value).to_formatted_s(:standard)
+    solr_format_date = Date.parse(value).strftime("%F")
+    #2012-09-24T00:00:00Z TO 2012-09-24T23:59:99.999Z
+    #2016-10-12T*:*:*Z TO 2016-10-12T*:*:*.999Z
+    #[2016-10-12/DAY TO 2016-10-12/DAY+1DAY]
+    solr_date_search = "#{solr_format_date}"
+    link_to(label, main_app.search_catalog_path(f: { 'date_modified_dttsi' => ["#{value}"]}))
+  end
+
 end
