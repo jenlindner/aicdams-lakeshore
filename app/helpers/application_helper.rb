@@ -37,10 +37,10 @@ module ApplicationHelper
     # maybe, rather than turning into array and back to string.
     # also not so performant to have to strip leading and trailing + chars
     # also would be nice to use this more helperly,
-    # to pass in the facet term.
+    # to pass in the facet term. might need test that checks for full format of content, and follows the links and gets correct facet results.
     types = options[:value].first.split(">")
     type_links = types.map do |type|
-      link_to(type, main_app.search_catalog_path(f: { "document_types_sim" => ["#{type.gsub(/\A[\d_\W]+|[\d_\W]+\Z/, '')}"]}))
+      link_to(type, main_app.search_catalog_path(f: { "document_types_sim" => [type.to_s.gsub(/\A[\d_\W]+|[\d_\W]+\Z/, '')] }))
     end
     safe_join(type_links, ">")
   end
