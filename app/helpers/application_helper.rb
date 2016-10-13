@@ -31,4 +31,17 @@ module ApplicationHelper
     citi_tbl_id = citi_tbl_ids[model.to_sym]
     link_to "View this #{model} in CITI", "http://citiworker10.artic.edu:8080/edit/?tableID=" + citi_tbl_id.to_s + "&uid=" + citi_uid.to_s, target: "_blank", class: "btn btn-default citi-btn"
   end
+
+  def link_to_each_type(options)
+    # ought to be a better way to do this, just string gsub
+    # maybe, rather than turning into array and back to string.
+    # also not so performant to have to strip leading and trailing + chars
+    # also would be nice to use this more helperly,
+    # to pass in the facet term.
+    types = options[:value].first.split(">")
+    type_links = types.map do |type|
+      link_to(type, main_app.search_catalog_path(f: { "document_types_sim" => ["#{type.gsub(/\A[\d_\W]+|[\d_\W]+\Z/, '')}"]}))
+    end
+    safe_join(type_links, ">")
+  end
 end
