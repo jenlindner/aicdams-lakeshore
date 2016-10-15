@@ -32,16 +32,13 @@ module ApplicationHelper
     link_to "View this #{model} in CITI", "http://citiworker10.artic.edu:8080/edit/?tableID=" + citi_tbl_id.to_s + "&uid=" + citi_uid.to_s, target: "_blank", class: "btn btn-default citi-btn"
   end
 
-  def link_to_each_type(options)
-    # ought to be a better way to do this, just string gsub
-    # maybe, rather than turning into array and back to string.
-    # also not so performant to have to strip leading and trailing + chars
-    # also would be nice to use this more helperly,
-    # to pass in the facet term. might need test that checks for full format of content, and follows the links and gets correct facet results.
-    types = options[:value].first.split(">")
-    type_links = types.map do |type|
-      link_to(type, main_app.search_catalog_path(f: { "document_types_sim" => [type.to_s.gsub(/\A[\d_\W]+|[\d_\W]+\Z/, '')] }))
+  def link_to_each_facet_field(options)
+    raise ArgumentError unless options[:config] && options[:value] && options[:config][:helper_facet]
+    facet_search = options[:config][:helper_facet]
+    facet_fields = options[:value].first.split(">").each(&:strip!)
+    facet_links = facet_fields.map do |type|
+      link_to(type, main_app.search_catalog_path(f: { facet_search => [type] }))
     end
-    safe_join(type_links, ">")
+    safe_join(facet_links, " > ")
   end
 end
